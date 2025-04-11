@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
-lr_model=pickle.load(open('pipe.pkl','rb'))
+lr_model=pickle.load(open('df.pkl','rb'))
 df=pickle.load(open('df.pkl','rb'))
 
 st.title("Laptop Price Predictor App")
